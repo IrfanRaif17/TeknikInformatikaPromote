@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img/umrah2-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar .name h1{
+    width: 1000px;
+    color:#fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #0066cc;
+    position: absolute;
+    left: 0;
+    bottom: -0px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.container h1{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+td img{
+    height: 50px;
+    width: 50px;
+    border-radius: 200%;
+    border: 5px solid #fff;
+}
+.table01 {
+    max-width: 900px;
+    border: 5px solid #0066cc;
+    background-color:#efefef33;
+    text-align: center;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+}
+table{
+    width: 100%;
+    font-size: 13px;
+    color:#fff;
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+table>thead{
+    background-color: #0066cc;
+    color: #fff;
+}
+table>thead th{
+    padding: 15px;
+}
+table th,
+table td{
+    border: 2px solid #000000;
+}
+table>tbody>tr>td>img{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.link>a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #000000;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
