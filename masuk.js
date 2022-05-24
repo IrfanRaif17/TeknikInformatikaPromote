@@ -1,1 +1,1 @@
-confirm (" apakah kamu yakin ? ");
+windows.confirm(" apakah kamu yakin ? ");
